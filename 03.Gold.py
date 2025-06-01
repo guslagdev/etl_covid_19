@@ -117,7 +117,7 @@ print("#")
 
 write_table(
   df_final,
-  b_schema,
+  g_schema,
   table,
   path_table
 )
