@@ -41,7 +41,7 @@ Este projeto tem como objetivo processar, transformar e analisar dados públicos
 
 ## ✅ Como executar
 
-1. Importe os notebooks no Databricks
+1. Importe os notebooks no Databricks, utilizando o arquivo: `Gustavo_Lagares-HiringCase_ABInBev.dbc` 
 2. Execute os notebooks na ordem: `01.Stage`, `02.Transformation`, `03.Gold`
 3. Consulte os blocos de validação (comandos SQL) para ver os resultados
 
