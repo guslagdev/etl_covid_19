@@ -124,12 +124,12 @@ path_table = f"{bronze_path}{table}"
 print(f"# Iniciando ingestão da tabela {table}")
 print("#")
 
-df_locations.write.format('delta') \
-                    .mode('overwrite') \
-                    .option('overwriteSchema', 'True') \
-                    .saveAsTable(f'{schema}.{table}', 
-                                 path=path_table
-                                )
+write_table(
+  df_locations,
+  b_schema,
+  table,
+  path_table
+)
 
 print("#")
 print(f"# Ingestão da {table} concluida")
